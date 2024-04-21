@@ -1,0 +1,179 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "creation": "2024-04-21 19:08:27.745069",
+ "default_view": "List",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "engine": "InnoDB",
+ "field_order": [
+  "username",
+  "section_break_pypo",
+  "test_1",
+  "test_2",
+  "test_3",
+  "test_4",
+  "test_5",
+  "column_break_zwan",
+  "test_6",
+  "test_7",
+  "test_8",
+  "test_9",
+  "test_10",
+  "route",
+  "published",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "username",
+   "fieldtype": "Data",
+   "label": "username",
+   "not_nullable": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_pypo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "test_1",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Test 1",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "test_2",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Test 2",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "test_3",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Test 3",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "test_4",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Test 4",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "test_5",
+   "fieldtype": "Int",
+   "label": "Test 5",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_zwan",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "test_6",
+   "fieldtype": "Int",
+   "label": "Test 6",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "test_7",
+   "fieldtype": "Int",
+   "label": "Test 7",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "test_8",
+   "fieldtype": "Int",
+   "label": "Test 8",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "test_9",
+   "fieldtype": "Int",
+   "label": "Test 9",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "test_10",
+   "fieldtype": "Int",
+   "label": "Test 10",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  },
+  {
+   "default": "0",
+   "fieldname": "published",
+   "fieldtype": "Check",
+   "label": "Published"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Score",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "force_re_route_to_default_view": 1,
+ "has_web_view": 1,
+ "index_web_pages_for_search": 1,
+ "is_published_field": "published",
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-04-21 20:21:03.267244",
+ "modified_by": "Administrator",
+ "module": "Test App",
+ "name": "Score",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guest",
+   "share": 1
+  }
+ ],
+ "quick_entry": 1,
+ "route": "scores",
+ "show_preview_popup": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
